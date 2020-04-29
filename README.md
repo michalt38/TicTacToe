@@ -28,7 +28,7 @@ Overrides corresponding method in the base class. Randomly chooses position on b
 Overrides corresponding method in the base class. Returns true.
 ### Board
 Stores a board as a 2-dimensional array of chars. It has the following methods:
-#### `void showBoard()`
+#### `void showBoard() const`
 Displays board in a console. For exampe for 3x3 grid:
 <pre><p>
    |   |
@@ -44,7 +44,7 @@ ___|___|___
 Uses `system("cls")` to clear the console.
 #### `bool setMark(int position, char marker)`
 Sets a given marker on a given position on the board. Returns false if a given position in already taken and true otherwise.
-#### `Result checkWin(const Player & player)`
+#### `Result checkWin(const Player & player) const`
 Checks if a given player has won, drawn or a game is not finished yet. Returns corresponding value of enum class Result:
 ```c++
 enum class Result { NotFinished, Win, Draw };
