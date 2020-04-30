@@ -10,7 +10,7 @@ public:
     Board(int dimension);
     virtual ~Board();
     void showBoard() const;
-    bool setMark(int position, char marker);
+    bool setMarker(int position, char marker);
     Result checkWin(const Player & player) const;
 private:
     const int m_dimension;

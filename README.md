@@ -42,7 +42,7 @@ ___|___|___
    |   |
 </p></pre>
 Uses `system("cls")` to clear the console.
-#### `bool setMark(int position, char marker)`
+#### `bool setMarker(int position, char marker)`
 Sets a given marker on a given position on the board. Returns false if a given position in already taken and true otherwise.
 #### `Result checkWin(const Player & player) const`
 Checks if a given player has won, drawn or a game is not finished yet. Returns corresponding value of enum class Result:
