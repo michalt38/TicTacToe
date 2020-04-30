@@ -18,5 +18,4 @@ int main()
     Marker userMarker = (Marker)marker;
     Game game(dimension, userMarker);
     game.play();
-    system("pause");
 }
